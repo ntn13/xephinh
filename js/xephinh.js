@@ -195,7 +195,7 @@ class Game {
 
     // Render message
     if (status === "won") {
-      document.querySelector(".message").textContent = "💯 Bạn Là Người Chiến Thắng💯";
+      document.querySelector(".message").textContent = "💯 Chiến Thắng 💯";
     } else {
       document.querySelector(".message").textContent = "";
     }
